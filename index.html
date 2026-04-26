@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HirePilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <main class="app">
+        <div class="demo-switcher">
+            <button onclick="switchDemo('A')">スカウト課題</button>
+            <button onclick="switchDemo('B')">ターゲット課題</button>
+            <button onclick="switchDemo('C')">クロージング課題</button>
+        </div>
+
+        <section class="hero">
+            <h1>HirePilot</h1>
+            <p>採用ファネルと媒体別KPIから、採用の詰まりを3分で特定するダッシュボード</p>
+        </section>
+
+        <section id="priority-action"></section>
+        <section id="execution-plan" style="margin-top:16px;"></section>
+        
+        <section id="diagnosis"></section>
+        
+        <section id="kpi"></section>
+
+        <div class="grid two-column">
+            <section id="funnel"></section>
+            <section id="actions"></section>
+        </div>
+
+        <section id="ng-analysis" style="margin-top:16px;"></section>
+        <section id="media" style="margin-top:16px;"></section>
+    </main>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/funnel.js"></script>
+    <script src="./js/calc.js"></script>
+    <script src="./js/kpi.js"></script>
+    <script src="./js/diagnosis.js"></script>
+    <script src="./js/ui.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
