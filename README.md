@@ -5,9 +5,9 @@
 
 ---
 
-## 🚀 デモ
+## 🚀 デモURL
 
-index.html を開くだけで動作します（サーバー不要）
+https://satochan-ai.github.io/hirepilot/
 
 ---
 
