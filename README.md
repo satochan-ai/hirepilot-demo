@@ -7,7 +7,7 @@
 
 ## 🚀 デモURL
 
-https://satochan-ai.github.io/hirepilot/demo/
+https://satochan-ai.github.io/hirepilot-demo/
 
 ---
 
